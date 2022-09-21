@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </nav>
-            <h1>Search Similar <span>Sites</span></h1>
+            <h1>Search Your Hospital Patient Portals</span></h1>
         </div>
     </div>
     </div>

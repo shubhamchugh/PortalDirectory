@@ -26,8 +26,8 @@
                         <h2>
                             <img class="img-fluid  mt-2"
                                 src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://{{ $post->slug }}&size=32">
-                            <a class="link-post" href="{{ route('post.show',['post'=>$post->slug]) }}">Sites Like {{
-                                ucfirst($post->slug) }}</a>
+                            <a class="link-post" href="{{ route('post.show',['post'=>$post->slug]) }}">{{
+                                ucfirst($post->slug) }} Patient Portal</a>
                         </h2>
                         <h3>{{ optional($post->seo_analyzers_relation)->domain_title }}</h3>
                         <p>{{ optional($post->seo_analyzers_relation)->domain_description }}</p>
@@ -51,8 +51,7 @@
                             "test" }}
                         </a>
 
-                        <a href="{{ route('post.show',['post'=>$post->slug]) }}" class="btn btn-product"><strong>SITE
-                                LIKE {{
+                        <a href="{{ route('post.show',['post'=>$post->slug]) }}" class="btn btn-product"><strong>Patient Portal {{
                                 Str::upper($post->slug) }}</strong></a>
                     </div>
                 </div>
